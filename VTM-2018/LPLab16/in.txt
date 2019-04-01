@@ -1,0 +1,23 @@
+LIBRVTM;
+
+int func sum(int a, int b)
+{
+let int res = a + b;
+return res;
+}
+
+main
+{
+let int five = 5;
+let int ten = 10;
+let int null;
+let int result = (five + ten) * (ten / 5) - sum(five, ten) + pow(2, 8);
+echo("The result is: ");
+echo(result);
+let string str = "This is VTM-2018!";
+echo(str);
+let int len = length(str);
+echo("Length of string: ");
+echo(len);
+return 0;
+}
